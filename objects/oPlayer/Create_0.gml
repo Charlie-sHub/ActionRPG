@@ -1,3 +1,5 @@
+collisionMap = layer_tilemap_get_id(layer_get_id("Collision"));
+
 // Stops the sprite animation
 image_speed = 0;
 hSpeed = 0;
