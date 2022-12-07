@@ -3,7 +3,10 @@
   "resourceVersion": "1.6",
   "name": "ActionRPGTutorial",
   "resources": [
+    {"id":{"name":"playerStateRoll","path":"scripts/playerStateRoll/playerStateRoll.yy",},"order":4,},
+    {"id":{"name":"playerStateFree","path":"scripts/playerStateFree/playerStateFree.yy",},"order":3,},
     {"id":{"name":"tCollision","path":"tilesets/tCollision/tCollision.yy",},"order":0,},
+    {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},"order":3,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},"order":2,},
