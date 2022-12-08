@@ -2,3 +2,6 @@
 #macro TILE_SIZE 16
 #macro CARDINAL_DIRECTION round(direction / 90)
 #macro ROOM_START rVillage
+
+#macro RESOLUTION_WIDTH 320
+#macro RESOLUTION_HEIGHT 180
