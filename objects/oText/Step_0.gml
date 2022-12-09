@@ -8,6 +8,11 @@ if (keyboard_check(vk_space)) {
 	var messageLength = string_length(message);
 	if (textProgress >= messageLength) {
 		instance_destroy();
+		if (instance_exists(oTextQueued)) {
+			with (oTextQueued) ticket--;
+		} else {
+			with(oPlayer) state = lastState;
+		}
 	} else if (textProgress > 2) {
 		textProgress = messageLength;
 	}

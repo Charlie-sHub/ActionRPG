@@ -21,9 +21,26 @@ function playerStateFree(){
 	// Updating image index
 	playerAnimateSprite();
 	
-	// Change state
+	// Activate key logic
 	if (keyActivate){
-		state = playerStateRoll;
-		moveDistanceRemanining = distanceRoll;
+		var activateX = lengthdir_x(10, direction);
+		var activateY = lengthdir_y(10, direction);
+		activate = instance_position(x + activateX, y + activateY, pEntity);
+		if (activate == noone || activate.entityActivateScript == -1) {
+			// Roll if nothing to activate
+			state = playerStateRoll;
+			moveDistanceRemanining = distanceRoll;
+		} else {
+			// Activate entity's script
+			scriptExecuteArray(activate.entityActivateScript, activate.entityActivateArguments);
+			
+			// Make NPC face player			
+			if (activate.entityNPC) {
+				with (activate) {
+					direction = point_direction(x, y, other.x, other.y);
+					image_index = CARDINAL_DIRECTION;
+				}
+			}
+		}
 	}
 }
