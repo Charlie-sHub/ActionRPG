@@ -14,7 +14,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"screenShake","path":"scripts/screenShake/screenShake.yy",},"order":5,},
     {"id":{"name":"oTextQueued","path":"objects/oTextQueued/oTextQueued.yy",},"order":5,},
-    {"id":{"name":"oQuestNPS","path":"objects/oQuestNPS/oQuestNPS.yy",},"order":8,},
+    {"id":{"name":"oQuestNPC","path":"objects/oQuestNPC/oQuestNPC.yy",},"order":8,},
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"order":6,},
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},"order":6,},
     {"id":{"name":"oSignpost","path":"objects/oSignpost/oSignpost.yy",},"order":7,},

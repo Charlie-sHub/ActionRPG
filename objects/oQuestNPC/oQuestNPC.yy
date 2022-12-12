@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oQuestNPS",
+  "name": "oQuestNPC",
   "spriteId": {
     "name": "sQuesty",
     "path": "sprites/sQuesty/sQuesty.yy",

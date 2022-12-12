@@ -8,3 +8,6 @@ x2Target = RESOLUTION_WIDTH;
 
 lerpProgress = 0;
 textProgress = 0;
+
+responses[0] = -1;
+responseSelected = 0;
