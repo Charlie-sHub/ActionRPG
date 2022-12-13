@@ -17,7 +17,6 @@ function newTextBox(text, givenBackground = 1, _responses) {
 				responseScripts[i] = string_copy(responses[i], 1, markerPosition - 1);
 				responseScripts[i] = real(responseScripts[i]);
 				responses[i] = string_delete(responses[i], 1, markerPosition);
-				breakpoint = 10;
 			}
 		}
 	}

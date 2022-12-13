@@ -17,7 +17,12 @@ if(responseSelected < minResponse) responseSelected = maxResponse;
 
 if (keyboard_check_pressed(vk_space)) {
 	var messageLength = string_length(message);
-	if (textProgress >= messageLength) {
+	if (textProgress >= messageLength) {		
+		if (responses[0] != -1) {
+			with (originInstance) {
+				dialogueResponses(other.responseScripts[other.responseSelected]);
+			}	
+		}	
 		instance_destroy();
 		if (instance_exists(oTextQueued)) {
 			with (oTextQueued) ticket--;

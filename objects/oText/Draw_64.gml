@@ -8,6 +8,7 @@ draw_set_color(c_black);
 var print = string_copy(message, 1, textProgress);
 
 if (responses[0] != -1) && (textProgress >= string_length(message)) {
+	breakpoint = 10;
 	for (var i = 0; i < array_length(responses); i++) {
 		print += "\n";
 		if (i == responseSelected) print += "> ";		
