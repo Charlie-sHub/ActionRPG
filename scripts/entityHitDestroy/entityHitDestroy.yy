@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "attackSlash",
+  "name": "entityHitDestroy",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player Attacks",
-    "path": "folders/Scripts/Player Attacks.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }
