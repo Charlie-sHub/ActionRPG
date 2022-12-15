@@ -5,3 +5,7 @@
 
 #macro RESOLUTION_WIDTH 320
 #macro RESOLUTION_HEIGHT 180
+
+#macro TRANSITION_SPEED 0.02
+#macro OUT 0
+#macro IN 1 

@@ -5,6 +5,7 @@ if (instance_exists(oPlayer) && position_meeting(oPlayer.x, oPlayer.y, id)) {
 	global.targetX = targetX;
 	global.targetY = targetY;
 	global.targetDirection = oPlayer.direction;
-	room_goto(global.targetRoom);
+	with (oPlayer) state = playerStateTransition;
+	roomTransition(TRANSITION_TYPE.FADE, targetRoom);
 	instance_destroy();
 }

@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},"order":15,},
     {"id":{"name":"shWhiteFlash","path":"shaders/shWhiteFlash/shWhiteFlash.yy",},"order":0,},
+    {"id":{"name":"playerStateTransition","path":"scripts/playerStateTransition/playerStateTransition.yy",},"order":5,},
     {"id":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},"order":9,},
     {"id":{"name":"playerStateRoll","path":"scripts/playerStateRoll/playerStateRoll.yy",},"order":4,},
     {"id":{"name":"playerStateFree","path":"scripts/playerStateFree/playerStateFree.yy",},"order":2,},
@@ -19,6 +20,7 @@
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":17,},
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},"order":1,},
     {"id":{"name":"entityHitDestroy","path":"scripts/entityHitDestroy/entityHitDestroy.yy",},"order":13,},
+    {"id":{"name":"roomTransition","path":"scripts/roomTransition/roomTransition.yy",},"order":16,},
     {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},"order":3,},
     {"id":{"name":"sPlayerHurt","path":"sprites/sPlayerHurt/sPlayerHurt.yy",},"order":3,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":8,},
@@ -26,6 +28,7 @@
     {"id":{"name":"playerStateAttack","path":"scripts/playerStateAttack/playerStateAttack.yy",},"order":0,},
     {"id":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},"order":13,},
     {"id":{"name":"sFragPlant","path":"sprites/sFragPlant/sFragPlant.yy",},"order":16,},
+    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":16,},
     {"id":{"name":"screenShake","path":"scripts/screenShake/screenShake.yy",},"order":0,},
     {"id":{"name":"oTextQueued","path":"objects/oTextQueued/oTextQueued.yy",},"order":1,},
     {"id":{"name":"oQuestNPC","path":"objects/oQuestNPC/oQuestNPC.yy",},"order":2,},
