@@ -21,3 +21,9 @@ spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
+
+if (global.targetX != -1) {
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+}
