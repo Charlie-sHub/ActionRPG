@@ -10,6 +10,6 @@ enum TRANSITION_TYPE {
 
 width = RESOLUTION_WIDTH;
 height = RESOLUTION_HEIGHT;
-heightHalf = height * 0.5;
+heightHalf = (height * 0.5) + 20;
 percent = 0;
 leading = OUT;
