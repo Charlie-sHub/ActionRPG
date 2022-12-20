@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "slimeChase",
+  "name": "PlayerAttackFunctions",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Player Attacks",
+    "path": "folders/Scripts/Player Attacks.yy",
   },
 }

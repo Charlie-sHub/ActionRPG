@@ -14,7 +14,7 @@ wait = 0;
 aggroCheck = 0;
 aggroCheckDuration = 5;
 stateTarget = state;
-statePrevius = state;
+statePrevious = state;
 stateWait = 0;
 stateWaitDuration = 0;
 
