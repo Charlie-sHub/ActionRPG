@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "entityHitDestroy",
+  "name": "slimeAttack",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Activation",
-    "path": "folders/Scripts/Activation.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }
