@@ -1,6 +1,8 @@
 /// @description Progress transisiton
 
-with (oPlayer) state = playerStateTransition;
+with (oPlayer) {	
+	if (oPlayer.state != playerStateDead) state = playerStateTransition;
+}
 
 if (leading = OUT) {
 	percent = min(1, percent + TRANSITION_SPEED);
