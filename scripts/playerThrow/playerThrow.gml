@@ -15,4 +15,6 @@ function playerThrow(){
 	}
 	playerActOutAnimation(sPlayerLift);
 	global.instanceLifted = noone;
+	spriteIdle = sPlayer;
+	spriteRun = sPlayerRun;
 }

@@ -15,6 +15,14 @@ function dialogueResponses(response){
 		case 3:
 			newTextBox("Thanks for your responses", 0);
 			break;
+		case 4:
+			newTextBox("Thanks!", 2);			
+			newTextBox("I think i left it in that scary cave to the north east", 2);
+			global.questStatus[? "TheHatQuest"] = 1;
+			break;
+		case 5:
+			newTextBox(":(", 2);
+			break;
 		default:
 			break;
 	}

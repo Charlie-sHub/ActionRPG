@@ -11,6 +11,8 @@ global.targetDirection = 0;
 global.instanceLifted = noone;
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
+global.questStatus = ds_map_create();
+global.questStatus[? "TheHatQuest"] = 0;
 
 global.iCamera = instance_create_layer(0, 0, layer, oCamera);
 global.iUI = instance_create_layer(0, 0, layer, oUI);
